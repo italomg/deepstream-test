@@ -10,14 +10,14 @@ curl --request POST \
   --url http://localhost:8080/ \
   --header 'content-type: application/json' \
   --data '{
-	"body": [
-		{
-			"topic": "record",
-			"action": "write",
-			"recordName": "test/johndoe",
-			"path": "age",
-			"data": 21
-		}
-	]
+  "body": [
+    {
+      "topic": "record",
+      "action": "write",
+      "recordName": "test/johndoe",
+      "path": "age",
+      "data": 21
+    }
+  ]
 }'
 ```
